@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2? family= Nerko+One & display=swap');
+body{font-family: 'Nerko One', cursive; margin: 0; padding: 0;}
+
+.Grid__Container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+
+
+/*------HEADER-----*/
+.Grid__Header{
+    display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding-left: 5px; padding: 10px;
+}
+.Logo{height: 80px; width: 80px;}
+.Header__Lista{display: flex; flex-direction: row; margin: 2px; padding: 2px}
+.Header__Lista--Link{margin: 5px; padding: 10px; list-style: none; font-size: 23px}
+.A__Link:hover{background-color: lightgrey; color: lightseagreen; font-size: 28px; border-radius: 8px; padding: 6px;}
+.A__Link{color: white; text-decoration: none; transition: .3s;}
+
+.Grid__Header{grid-area: header; background-color:#557153;}
+.Grid__Main{grid-area: main; background-color: #7D8F69;;}
+.Grid__Footer{grid-area: footer; background-color: #6aa565;}
+
+.Grid__Main{
+    display: grid;
+    grid-template-areas: 
+    "titulo"
+    "M-Sup"
+    "M-Inf"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+
+.Titulo__Gral{grid-area: titulo; display: flex; flex-direction: column; justify-content:center; align-items: center;}
+
+.Main__Sup{
+    grid-area: M-Sup;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center; 
+}
+.Main__Inf{grid-area: M-Inf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.Titulo__Main{font-size: 55px; color: white; margin: 0;}
+.Sub__Main{font-size: 25px; color: white; margin-top: 0;}
+.QS{font-size: 70px; color: white;}
+.Fle{height: 250px; width: 250px;}
+.Vid{height: 250px; width: 250px;}
+
+.TX{width: 500px; color: white;}
+
+.Grid__BT{
+    display: grid;
+    grid-template-areas: 
+    "BT1 BT2"
+    "BT3 BT4"
+    ;
+    gap: 50px;
+}
+
+.BT1{grid-area: BT1;}
+.BT2{grid-area: BT2;}
+.BT3{grid-area: BT3;}
+.BT4{grid-area: BT4;}
+
+.BT{    
+    text-decoration: none;
+    color: white;
+    background-color: lightsalmon;
+    border-style: solid; border: 2px; border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    transition: .3s;
+}
+.BT:hover{background-color: lightcoral; color: lightslategray;}
+
+/*---------------FOOTER---------------------*/
+footer{
+    background-color:seagreen
+}
+.RRSS{
+    display: flex; flex-direction: row; justify-content: space-around;
+    padding: 15px;
+}
+
+.LGRRSS{
+    height: 50px; width: 50px;
+}
+
+.Copy{
+    display: flex; flex-direction: row; justify-content: center; align-items: center;
+}
+.logoF{
+    width: 40px; height: 40px;
+}
+
+/*-------------------SERVICIOS-------------*/
+.TX__S{
+    color: white; font-size: 25px; margin: 10px;
+}
+
+/*-------------NOSOTROS------*/
+.Main__Nos{
+    display: flex; flex-direction: row; justify-content: space-around; align-items: center;
+}
+.CD__P{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+.T__Ases{
+    font-size: 50px; color: lightseagreen; margin-bottom: 0;
+}
+.TX__P{color: white; font-size: 20px; margin-top: 0; width: 300px;}
+
+/*-------------------CONTACTO-------------*/
+.Main__Cont{
+    display: grid;
+    grid-template-areas: 
+    "form publi fle iframe"
+    ;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+
+    justify-content: center; align-items: center;
+}
+
+.Publi{
+    font-size: 60px;
+    color: white;  
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-right: 30px;
+}
+
+.Formularios{
+    margin-left: 80px;
+}
+
+.Enviar{
+    width: 100px; height: 50px; color: white; background-color: lightsalmon; font-size: 15px;
+}
+
+/*-------------------CONTACTO-------------*/
+.Main__Clientes{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+.Main__Inf--Cliente{padding: 0; margin: 0;}
+.Card__Cliente{
+    display: flex; flex-direction: column; margin: 10px; padding: 15px;
+}
+.Inf__C{display: flex; flex-direction: row;}
+
+.NRO__C{
+    color: lightseagreen; font-size: 45px;
+}
