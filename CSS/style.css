@@ -185,8 +185,23 @@ footer{
     .QS{color: lightseagreen;}
     .Fle{display: none;}
     .Main__Inf{display: flex; flex-direction: column;}
-    .TX{width: 300px;}
+    .TX{width: 380px;}
     .Grid__BT{margin-top: 35px; display: flex; flex-direction: column;}
     .BTS{margin: 20px;}
+
+    .Main__Nos{
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+    .CD__P{margin: 25px;}
+    .Main__Cont{display: flex; flex-direction: column; margin: 10px; justify-content: center; align-items: center;}
+    .Formularios{margin: 0;}
+    .Fle__Conct{display: none;}
+    .Publi{display: none;}
+    .Posteo{margin: 15px; padding: 10px;}
+    .Main__Clientes{display: flex; flex-direction: column;}
+    .Main__Sup{display: flex; flex-direction: column;}
+    .Inf__C{display: flex; flex-direction: column;}
+    .Card__Cliente{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    .V__Cont{display: flex; justify-content: center; align-items: center; margin: 0;}
 }
 
