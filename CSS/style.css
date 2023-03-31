@@ -187,5 +187,6 @@ footer{
     .Main__Inf{display: flex; flex-direction: column;}
     .TX{width: 300px;}
     .Grid__BT{margin-top: 35px; display: flex; flex-direction: column;}
+    .BTS{margin: 20px;}
 }
 
