@@ -62,7 +62,7 @@ body{font-family: 'Nerko One', cursive; margin: 0; padding: 0;}
 .Fle{height: 250px; width: 250px;}
 .Vid{height: 250px; width: 250px;}
 
-.TX{width: 500px; color: white;}
+.TX{width: 100%; color: white;}
 
 .Grid__BT{
     display: grid;
@@ -111,7 +111,7 @@ footer{
 
 /*-------------------SERVICIOS-------------*/
 .TX__S{
-    color: white; font-size: 25px; margin: 10px;
+    color: white; font-size: 20px; margin: 10px; width: 100%;
 }
 
 /*-------------NOSOTROS------*/
@@ -124,7 +124,7 @@ footer{
 .T__Ases{
     font-size: 50px; color: lightseagreen; margin-bottom: 0;
 }
-.TX__P{color: white; font-size: 20px; margin-top: 0; width: 300px;}
+.TX__P{color: white; font-size: 20px; margin-top: 0; width: 100%;}
 
 /*-------------------CONTACTO-------------*/
 .Main__Cont{
@@ -176,16 +176,16 @@ footer{
     }
 
     .Grid__Header{
-        display: flex; flex-direction: column-reverse;
+        display: flex; flex-direction: column-reverse; flex-wrap: wrap;
     }
 
-    .Header__Lista--Link{font-size: 15px; padding: 5px;}
+    .Header__Lista--Link{font-size: 14px; padding: 2px;}
     .Logo{height: 60px; width: 60px;}
     .Main__Sup{display: flex; flex-direction: column;}
     .QS{color: lightseagreen;}
     .Fle{display: none;}
     .Main__Inf{display: flex; flex-direction: column;}
-    .TX{width: 380px;}
+    .TX{width: 100%;}
     .Grid__BT{margin-top: 35px; display: flex; flex-direction: column;}
     .BTS{margin: 20px;}
 
@@ -203,5 +203,14 @@ footer{
     .Inf__C{display: flex; flex-direction: column;}
     .Card__Cliente{display: flex; flex-direction: column; justify-content: center; align-items: center;}
     .V__Cont{display: flex; justify-content: center; align-items: center; margin: 0;}
+}
+
+
+@media (min-width:768px) AND (max-width: 1024px){
+    .Publi{display: none;}
+    .Fle__Conct{display: none;}
+    .Main__Cont{display: flex; justify-content: space-around;}
+    .Grid__Header{flex-wrap: wrap;}
+    
 }
 
